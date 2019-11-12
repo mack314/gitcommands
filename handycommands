@@ -1,0 +1,6 @@
+To search a string across all branches 
+  git log --all -p --reverse --source -S 'BEGIN CER' 
+
+Find the commit id from above command and use the following command to show git commit 
+  git show <commit id> 
+
